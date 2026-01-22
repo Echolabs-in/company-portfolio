@@ -1,0 +1,11 @@
+.App {
+  width: 100%;
+  position: relative;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-top: 100vh;
+  background: #000000;
+}

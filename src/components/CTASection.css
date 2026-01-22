@@ -1,0 +1,141 @@
+.cta-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 6rem 3rem;
+  overflow: hidden;
+  background: #000000;
+}
+
+.cta-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.cta-badge {
+  font-family: 'Archivo', sans-serif;
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  color: #e0e0e0;
+  font-size: 0.65rem;
+  font-weight: 500;
+  width: fit-content;
+  backdrop-filter: blur(10px);
+  margin: 0 auto;
+}
+
+.cta-headline {
+  font-family: 'Archivo', sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.cta-description {
+  font-family: 'Archivo', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.cta-button-primary {
+  font-family: 'Archivo', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.8rem;
+  background: linear-gradient(135deg, #cf0f54 0%, #cf0f54 100%);
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.cta-button-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(207, 15, 84, 0.4);
+}
+
+.cta-button-secondary {
+  font-family: 'Archivo', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.8rem;
+  background: rgba(155, 89, 182, 0.2);
+  border: 2px solid #9b59b6;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.cta-button-secondary:hover {
+  background: rgba(155, 89, 182, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(155, 89, 182, 0.3);
+}
+
+
+@media (max-width: 768px) {
+  .cta-section {
+    padding: 4rem 1.5rem;
+  }
+  
+  .cta-headline {
+    font-size: 2rem;
+  }
+  
+  .cta-description {
+    font-size: 0.9rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+  }
+  
+  .cta-button-primary,
+  .cta-button-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
