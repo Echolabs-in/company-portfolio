@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "https://echolabsin.netlify.app/*"
+  to = "https://echolabs.in/:splat"
+  status = 301
+  force = true
+
