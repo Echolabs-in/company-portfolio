@@ -15,7 +15,7 @@ function FeaturedInsights() {
     {
       id: 'website-redesign-project-plan',
       slug: 'the-ultimate-website-redesign-project-plan',
-      title: "The Ultimate Website Redesign Project Plan",
+      title: "A Step-by-Step Framework for Modern Website Success",
       tags: ["Strategy"],
       imageType: "project",
       category: "Project Planning",

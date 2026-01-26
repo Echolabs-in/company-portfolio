@@ -38,7 +38,7 @@ function ServicesSection() {
     <section className="services-section">
       <div className="services-container">
         <h2 className="services-title">
-          Three Ways Echolabs Can Help <br /> Companies Like Yours Succeed
+          Three Smart Ways Echolabs Helps <br />  Companies Like Yours Move Forward...
         </h2>
         
         <div className="services-cards">
