@@ -18,15 +18,18 @@
 
 .page-tag {
   display: inline-block;
-  padding: 0.4rem 1rem;
-  background: rgba(207, 15, 84, 0.1);
-  border: 1px solid rgba(207, 15, 84, 0.3);
+  padding: 0.75rem 2rem;
+  background: rgba(107, 44, 145, 0.3);
+  border: 1px solid #cf0f54;
   border-radius: 50px;
   color: #cf0f54;
-  font-size: 0.8rem;
-  font-weight: 500;
+  font-size: 0.9rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
+  box-shadow: 0 0 10px rgba(207, 15, 84, 0.3);
+  transition: all 0.3s ease;
+  margin: 0 auto;
 }
 
 .coming-soon-content h1 {

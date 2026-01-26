@@ -61,7 +61,7 @@ const Resources = () => {
         <div className="resources-container">
           <div className="resources-header">
             <span className="resources-tag">All Resources</span>
-            <h1 className="resources-title">Ecolabs Resource Hub</h1>
+            <h1 className="resources-title">Echolabs Resource Hub</h1>
             <p className="resources-description">
               Want to learn more about website strategy? You're in the right place. Our multi-media collection of resources can level up the strategic thinking of most experienced marketer.
             </p>
