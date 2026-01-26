@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Hero.css'
 
 function Hero() {
@@ -17,7 +18,7 @@ function Hero() {
       
       <div className="hero-container">
         <div className="hero-content">
-          <div className="tag-badge">B2B Digital Agency</div>
+          <div className="tag-badge">Echolabs | B2B Digital Agency</div>
           
           <h1 className="hero-headline">
             You Focus On Shaping The <br />
@@ -31,18 +32,18 @@ function Hero() {
           </p>
           
           <div className="hero-cta-group">
-            <button className="cta-primary">
+            <Link to="/book-strategy" className="cta-primary">
               Book A Strategy Session
               <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-            </button>
-            <button className="cta-secondary">
+            </Link>
+            <Link to="/services" className="cta-secondary">
               Instant Website Estimate
               <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-            </button>
+            </Link>
           </div>
           
           <div className="trusted-by">

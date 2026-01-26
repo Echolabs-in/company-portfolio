@@ -1,10 +1,11 @@
+import { Link, NavLink } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
   return (
     <header className="header">
       <div className="header-container">
-        <div className="logo">
+        <Link to="/" className="logo">
           <div className="logo-icon">
             <img
               src="/images/ecolabs-logo2.png"
@@ -17,16 +18,16 @@ function Header() {
             alt="Ecolabs"
             className="logo-text-img"
           />
-        </div>
+        </Link>
         
         <nav className="nav">
-          <a href="#services" className="nav-link active">Services</a>
-          <a href="#work" className="nav-link">Work</a>
-          <a href="#about" className="nav-link">About</a>
-          <a href="#resources" className="nav-link">Resources</a>
+          <NavLink to="/services" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Services</NavLink>
+          <NavLink to="/work" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Work</NavLink>
+          <NavLink to="/about" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>About</NavLink>
+          <NavLink to="/resources" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Resources</NavLink>
         </nav>
         
-        <button className="cta-button header-cta">Book A Strategy Session</button>
+        <Link to="/book-strategy" className="cta-button header-cta">Book A Strategy Session</Link>
       </div>
     </header>
   )

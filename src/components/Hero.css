@@ -123,6 +123,7 @@
   font-weight: 500;
   cursor: pointer;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .cta-secondary {
@@ -139,6 +140,7 @@
   font-weight: 500;
   cursor: pointer;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .trusted-by {

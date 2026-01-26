@@ -1,4 +1,4 @@
-# EcoLabs Web UI
+# Echolabs | B2B Digital Agency
 
 A modern React application built with Vite.
 
@@ -46,7 +46,7 @@ npm run preview
 ## Project Structure
 
 ```
-ecolabs-web-ui/
+Echolabs-web-ui/
 ├── public/          # Static assets
 ├── src/
 │   ├── App.jsx      # Main App component

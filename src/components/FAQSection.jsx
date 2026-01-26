@@ -40,7 +40,7 @@ function FAQSection() {
             Because every agency operates under different constraints: team quality, location, approach, and cost of labor.
           </p>
           <p className="faq-conclusion">
-            So let's cut through the noise and show you exactly where Ecolabs stands.
+            So let's cut through the noise and show you exactly where Echolabs stands.
           </p>
         </div>
         

@@ -85,7 +85,7 @@ function Footer() {
         
         <div className="footer-bottom">
           <div className="footer-bottom-left">
-            <span>© Ecolabs Designs LLC | 2025 | </span>
+            <span>© Echolabs Designs LLC | 2025 | </span>
             <a href="#privacy" className="footer-link">Privacy Policy</a>
           </div>
           

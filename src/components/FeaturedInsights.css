@@ -1,6 +1,6 @@
 .featured-insights {
   background: #f5f5f5;
-  padding: 4rem 3rem 2rem 3rem;
+  padding: 4rem 3rem 4rem 3rem;
   min-height: 60vh;
 }
 
@@ -39,6 +39,7 @@
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .insights-view-all:hover {
@@ -52,10 +53,21 @@
   gap: 1.5rem;
 }
 
+.insight-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .insight-card {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  transition: transform 0.3s ease;
+}
+
+.insight-card-link:hover .insight-card {
+  transform: translateY(-5px);
 }
 
 .insight-image-container {
@@ -96,16 +108,8 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   color: #000000;
-  cursor: pointer;
-  transition: all 0.3s ease;
   white-space: nowrap;
-}
-
-.tag-blog:hover,
-.tag-featured:hover {
-  background: #ffffff;
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
 }
 
 .insight-card-title {
