@@ -18,7 +18,7 @@ function Hero() {
       
       <div className="hero-container">
         <div className="hero-content">
-          <div className="tag-badge">Echolabs | B2B Digital Agency</div>
+          <div className="tag-badge">B2B Digital Agency</div>
           
           <h1 className="hero-headline">
             You Focus On Shaping The <br />
