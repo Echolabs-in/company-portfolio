@@ -63,13 +63,13 @@ function Footer() {
           <div className="footer-column">
             <h3 className="footer-heading">Office Headquarters</h3>
             <p className="footer-address">
-              812 Ivy St<br />
-              Pittsburgh, PA 15232
+              528 Chetu Noida, <br />
+              UP 201009
             </p>
             
             <h3 className="footer-heading">Contact</h3>
             <ul className="footer-contact">
-              <li><a href="tel:631-393-6116">631-393-6116</a></li>
+              <li><a href="tel:838-301-5513">838-301-5513</a></li>
               <li><a href="mailto:sales@echolabs.in">sales@echolabs.in</a></li>
               <li><a href="mailto:careers@echolabs.in">careers@echolabs.in</a></li>
             </ul>

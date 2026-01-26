@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import './Contact.css'
@@ -342,7 +343,7 @@ function Contact() {
       <Header />
       <div className="contact-wrapper">
         <div className="contact-top-button">
-          <button className="book-strategy-top">Book Your Strategy Session</button>
+          <Link to="/book-strategy" className="book-strategy-top">Book Your Strategy Session</Link>
         </div>
         
         <section className="contact-section">

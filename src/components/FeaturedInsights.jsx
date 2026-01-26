@@ -9,7 +9,8 @@ function FeaturedInsights() {
       title: "Understanding The Average Website Lifespan & When To Redesign",
       tags: ["Strategy"],
       imageType: "lifespan",
-      category: "How Often To Redesign Website?"
+      category: "How Often To Redesign Website?",
+      image: "/images/featured1.png"
     },
     {
       id: 'website-redesign-project-plan',
@@ -17,7 +18,8 @@ function FeaturedInsights() {
       title: "The Ultimate Website Redesign Project Plan",
       tags: ["Strategy"],
       imageType: "project",
-      category: "Project Planning"
+      category: "Project Planning",
+      image: "/images/featured2.png"
     },
     {
       id: 'high-converting-service-pages',
@@ -25,7 +27,8 @@ function FeaturedInsights() {
       title: "10+ High Converting Service Page Design Examples",
       tags: ["Design", "Strategy"],
       imageType: "conversion",
-      category: "Design Examples"
+      category: "Design Examples",
+      image: "/images/Featured3.jpg"
     }
   ]
 
@@ -48,10 +51,9 @@ function FeaturedInsights() {
               <div className="insight-card">
                 <div className="insight-image-container">
                   <img 
-                    src="" 
+                    src={insight.image} 
                     alt={insight.title}
                     className="insight-image"
-                    style={{ display: 'none' }}
                   />
                   <div className="insight-tags-top">
                     <span className="tag-blog">Blog</span>
