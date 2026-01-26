@@ -3,20 +3,20 @@ import './CaseStudiesSection.css'
 function CaseStudiesSection() {
   const caseStudies = [
     {
-      name: "Boston Dynamics",
-      image: "/images/boston-dynamics.jpg" // Placeholder - user will add actual images
+      name: "Tripgate",
+      image: "/images/tripgate-client.png"
     },
     {
-      name: "Client 2",
-      image: "/images/client-2.jpg"
+      name: "Codify",
+      image: "/images/codify-client.png"
     },
     {
-      name: "Client 3",
-      image: "/images/client-3.jpg"
-    },
-    {
-      name: "Client 4",
-      image: "/images/client-4.jpg"
+      name: "Newlife",
+      image: "/images/newlife-client.png"
+    }
+    ,{
+      name: "Trip Tales Pay",
+      image: "/images/triptales-client.png"
     }
   ]
 
