@@ -2,9 +2,13 @@ import './CaseStudiesSection.css'
 
 function CaseStudiesSection() {
   const caseStudies = [
+    ,{
+      name: "MLM Union",
+      image: "/images/mlm-client.png"
+    },
     {
       name: "Tripgate",
-      image: "/images/tripgate-client.png"
+      image: "/images/tripgate-client2.png"
     },
     {
       name: "Codify",
